@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+html
+	{background-color: #9b9b9b; font-family: 'Baloo Thambi', cursive; }
+a
+	{color: white; }
+
+div.container
+	{ max-width: 1024px; margin: auto; }
+
+header
+	{ background-color: #4e4f51; font-family: arial; text-align: center;  padding: 15px 0px; border-radius: 10px 10px 0px 0px ; font-family: 'Baloo Thambi', cursive; 
+	overflow: auto; }
+
+header a
+	{font-size: 50px; text-decoration: none; padding: 0px 15px;  }
+
+header a:hover
+	{background-color: black; border-radius: 10px;}
+	
+p.author
+	{font-size: 20px; }
+	
+nav
+	{background-color: white; text-align: center; background-color: black; height: 100px; overflow: auto; font-size: 20px; padding-bottom: 20px; }
+
+nav a 
+	{text-decoration: none; padding: 15px 30px; }
+
+nav a:hover
+	{background-color: #4e4f51; border-radius: 5px;}
+	
+nav ul
+	{list-style-type: none; margin-bottom: 5px; }
+	
+nav li
+	{display: inline-block; padding: 25px 30px 0px 30px; }
+	
+div.content
+	{background-color: white; overflow: auto; padding: 15px 275px 15px 50px;}
+article a 
+	{color: #467dd6; text-decoration: none;} 
+article a:hover
+	{color: #0a2147; text-decoration: none;} 
+ strong.black
+ {color: black; }
+	
+strong.red
+ {color: #6b1414;}
+ 
+
+	
+
+
+	
+	
+
+

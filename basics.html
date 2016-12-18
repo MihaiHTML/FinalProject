@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Basics</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
+</head>
+
+<body>
+<div class= "container">
+  <header>
+    <div class="header">
+      <div class="title"><a title="HTML Logo" a href="">HTML Basics</a>
+        <p class="author">Created By Mihai Rata</p>
+      </div>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html ">Home</a></li>
+      <li><a href="basics.html ">Basics</a></li>
+      <li><a href="glossary.html ">Glossary</a></li>
+    </ul>
+  </nav>
+  <div class= "content">
+    <article>
+      <h2 class="title">Fundamentals</h2>
+      <p> There are several tags that are neccesary for an HTML document to function properly. Every webpage must have a document decleration: <strong class="red">&lt;!DOCTYPE html&gt;</strong>. This lets the browser know that the file it is trying to display is an HTML document. The decleration does not need a closing tag, like most other tags do. The HTML document begins after the decleration. It consists of an opening and closing html tag: <strong class="red">&lt;html&gt; &lt;/html&gt;</strong>. All the content you wish to display goes in between the html tags. A set of tags with information within them are known as an <strong class="red">element</strong>. Every HTML element can have different <strong class="red">attributes</strong>. Attributes give extra information about the element and usually consist of a name and value. The name describes what part of the element should be changed, such as color, size or border. The value gives information such as the name of the color and amount of pixels. </p>
+    </article>
+    <article>
+      <h2 class="title">The Head</h2>
+      <p> The first set of tags that should go within your html tags should be the head tag: <strong class="red">&lt;head&gt; &lt;/head&gt;</strong>. The head tag contains information about the page that the user will not see, but still impacts how it looks. The head will hold all of the <strong class="red">metadata</strong> about the HTML document. Metadata is the information about the page that the web browser can understand. It can affect how the website looks and functions. The head is also where any extrnal sources like a CSS or Google Font goes. The last important tag that goes in the head is the <strong class="red">&lt;title&gt;</strong> tag. The title tag tells the browser what text should be displayed in tabs. One example is having homepage as a tab so the user can more easily navigate your site. </p>
+    </article>
+    <article>
+      <h2 class="title">The Body</h2>
+      <p> This where most of the content on a web page will go. That includes all text, images and other media types that the user is intended to see. Everything within <strong class="red">&lt;body&gt; &lt;/body&gt;</strong> will be displayed by the browser. The headings tags cotain text that will be enlarged and are used for headlines and titles. Headings have six different tags each indicating a specific size. They range from <strong class="red">&lt;h1&gt;</strong> to <strong class="red">&lt;h6&gt;</strong> and go from biggest to smallest. Most text and content that will be seen will go within paragraph tags: <strong class="red">&lt;p&gt;</strong>.  Some other commonly used elements within the body are links and images. </p>
+    </article>
+    <article>
+      <h2 class="title">Links &amp; Images</h2>
+      <p> One of the most important aspects of HTML is linking websites and webpages together. A link is displayed using the <strong class="red">&lt;a&gt;</strong> tag and needs to have an attribute directing to the link. The attribute is defined by using <strong class="red">href="address"</strong> in the starting tag. It also needs a name which can be either characters or an image. Links &amp; images can both be used from a local file or from the internet. For example, if your website has multiple pages you can link them together or link to another source.  Images use the <strong class="red">&lt;img&gt;</strong> tag and are one of the elements that does not need to be closed. In order for an image to display there has to be the img tag as well of the source of the picture. <strong class="black">Example:</strong> <strong class="red">&lt;img src="imageaddress"&gt;</strong><br>
+        <br>
+        Images can be resized using the <strong class="red">width</strong> &amp; <strong class="red">height</strong> attributes. It is also advisable to use an <strong class="red">alt</strong> which give the image a title that shows up if the image does not show and helps visually impaired users. <br>
+        <strong class="black">Example:</strong><strong class="red">&lt;img src="imageaddress" alt="image" width="50px" height="50px"&gt;</strong><br>
+        <br>
+        <strong class="black">Link with characters example:</strong><strong class="red"> &lt;a href="https://www.google.com"&gt;<strong class="black">Google</strong>&lt;/a&gt; </strong>will display as <a href="https://www.google.com" title="link">Google</a> in a browser.<br>
+      </p>
+      <br>
+      <strong class="black">Link with image example:</strong><strong class="red"> &lt;a href="https://www.google.com"&gt;&lt;img src="imageaddress"&gt;&lt;/a&gt; </strong> will display as <br>
+      <br>
+      <a href="https://www.google.com"><img src="https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_284x96dp.png" width="142px" height="48px" alt="google"></a> </article>
+  </div>
+</div>
+</body>
+</html>
